@@ -1,0 +1,22 @@
+@/
+version=0.0
+/@
+
+[info]
+        Name=Test 0
+        Id=0
+        Speed=1
+        Version=0.0
+        Tick=400
+        Looping=true
+        Use=prg
+[end]
+
+[setup]
+        >d0..12,:0
+[end]
+
+[prg]
+        >d0,d180,d0,d180,d0..8,
+        >d180,d0,d180,d0,d0..8,
+[end]
