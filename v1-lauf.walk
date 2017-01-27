@@ -11,6 +11,7 @@ Name=v1-lauf
 Tick=100
 Use=prg
 Speed=1000
+Looping=True
 [end]
 
 # default setup instruction, change if the position of the legs
