@@ -5,9 +5,9 @@ version=0.0
 # auto-generated file header, adjust to your liking (can also be)
 # adjusted via the programs options
 [info]
-Id=0
+Id=100
 Version=0.0
-Name=testname
+Name=v1-lauf
 Tick=100
 Use=prg
 Speed=1000
