@@ -1,0 +1,29 @@
+@/
+version=0.0
+/@
+
+# auto-generated file header, adjust to your liking (can also be)
+# adjusted via the programs options
+[info]
+Id=0
+Version=0.0
+Name=testname
+Tick=100
+Use=prg
+Speed=1000
+[end]
+
+# default setup instruction, change if the position of the legs
+# must be something else.
+[setup]
+>d90..12,:0
+[end]
+
+# the program, every step is just copied into the file
+[prg]
+        >10,74,0,106,10,74,0,106,10,74,0,106,:50
+        >0,74,10,106,0,74,10,106,0,74,10,106,:50
+        >0,106,10,74,0,106,10,74,0,106,10,74,:100
+        >10,106,0,74,10,106,0,74,10,106,0,74,:50
+        >10,74,0,106,10,74,0,106,10,74,0,106,:40
+[end]
