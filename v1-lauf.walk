@@ -5,12 +5,13 @@ version=0.0
 # auto-generated file header, adjust to your liking (can also be)
 # adjusted via the programs options
 [info]
-Id=101
-Version=0.0
+Id=100
+Version=1.0
 Name=v1-lauf
-Tick=1000
+Tick=100
 Use=prg
 Speed=1000
+Looping=true
 [end]
 
 # default setup instruction, change if the position of the legs
@@ -21,9 +22,9 @@ Speed=1000
 
 # the program, every step is just copied into the file
 [prg]
-        >d10,d74,d0,d106,d10,d74,d0,d106,d10,d74,d0,d106,:50
-        >d0,d74,d10,d106,d0,d74,d10,d106,d0,d74,d10,d106,:50
-        >d0,d106,d10,d74,d0,d106,d10,d74,d0,d106,d10,d74,:100
-        >d10,d106,d0,d74,d10,d106,d0,d74,d10,d106,d0,d74,:50
-        >d10,d74,d0,d106,d10,d74,d0,d106,d10,d74,d0,d106,:40
+        >d10,d84,d0,d116,d10,d84,d0,d116,d10,d84,d0,d116,:50
+        >d0,d84,d10,d116,d0,d84,d10,d116,d0,d84,d10,d116,:50
+        >d0,d116,d10,d84,d0,d116,d10,d84,d0,d116,d10,d84,:100
+        >d10,d116,d0,d84,d10,d116,d0,d84,d10,d116,d0,d84,:50
+        >d10,d84,d0,d116,d10,d84,d0,d116,d10,d84,d0,d116,:50
 [end]
