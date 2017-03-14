@@ -1,0 +1,21 @@
+@/
+version=0.0
+/@
+
+[info]
+        Name=Stand
+        Id=001
+        Speed=0
+        Version=0.0
+        Tick=30000
+        Looping=true
+        Use=prg
+[end]
+
+[setup]
+        >105..12,:0
+[end]
+
+[prg]
+        >d105..12,
+[end]

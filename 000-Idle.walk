@@ -1,0 +1,21 @@
+@/
+version=0.0
+/@
+
+[info]
+        Name=Idle
+        Id=000
+        Speed=0
+        Version=0.0
+        Tick=0
+        Looping=false
+        Use=prg
+[end]
+
+[setup]
+        >0..12,
+[end]
+
+[prg]
+        >0..12,
+[end]
