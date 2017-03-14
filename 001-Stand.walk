@@ -7,7 +7,7 @@ version=0.0
         Id=001
         Speed=0
         Version=0.0
-        Tick=30000
+        Tick=1000
         Looping=true
         Use=prg
 [end]
