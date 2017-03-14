@@ -1,0 +1,35 @@
+@/
+version=0.0
+/@
+
+# auto-generated file header, adjust to your liking (can also be)
+# adjusted via the programs options
+[info]
+Id=002
+Version=2.0
+Name=Zieh
+Tick=100
+Use=prg
+Speed=1000
+Looping=true
+[end]
+
+# default setup instruction, change if the position of the legs
+# must be something else.
+[setup]
+        >d100,d60,d136,d104,d107,d106,d150,d107,d104,d106,d64,d102,
+[end]
+
+# the program, every step is just copied into the file
+[prg]
+        >d90,d146,d61,d114,d107,d151,d149,d107,d104,d61,d57,d102,:50
+        >d90,d56,d151,d114,d107,d151,d149,d107,d104,d61,d57,d102,:300
+        >d100,d56,d151,d104,d107,d151,d149,d107,d104,d61,d57,d102,:50
+        >d100,d56,d151,d104,d97,d151,d149,d97,d104,d61,d57,d102,:50
+        >d100,d56,d151,d104,d97,d61,d59,d97,d104,d61,d57,d102,:300
+        >d100,d56,d151,d104,d107,d61,d59,d107,d104,d61,d57,d102,:50
+        >d100,d56,d151,d104,d107,d61,d59,d107,d114,d61,d57,d112,:50
+        >d100,d56,d151,d104,d107,d61,d59,d107,d114,d151,d147,d112,:300
+        >d100,d56,d151,d104,d107,d61,d59,d107,d104,d151,d147,d102,:50
+        >d100,d146,d61,d104,d107,d151,d149,d107,d104,d61,d57,d102,:300
+[end]
