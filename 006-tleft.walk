@@ -1,0 +1,32 @@
+@/
+version=0.0
+/@
+
+# auto-generated file header, adjust to your liking (can also be)
+# adjusted via the programs options
+[info]
+Id=006
+Version=0.1
+Name=tleft
+Tick=100
+Use=prg
+Speed=1000
+Looping=true
+[end]
+
+# default setup instruction, change if the position of the legs
+# must be something else.
+[setup]
+>d90..12,:0
+[end]
+
+# the program, every step is just copied into the file
+[prg]
+        >d70,d60,d116,d94,d117,d116,d140,d77,d134,d126,d44,d92,:20
+        >d110,d60,d116,d94,d117,d116,d140,d117,d94,d126,d44,d92,:50
+        >d110,d60,d116,d134,d77,d116,d140,d117,d94,d126,d44,d132,:20
+        >d110,d80,d156,d134,d77,d96,d160,d117,d94,d86,d84,d132,:70
+        >d110,d80,d156,d94,d117,d96,d160,d117,d94,d86,d84,d92,:50
+        >d70,d80,d156,d94,d117,d96,d160,d77,d134,d86,d84,d92,:20
+        >d70,d60,d116,d94,d117,d116,d140,d77,d134,d126,d44,d92,:50
+[end]

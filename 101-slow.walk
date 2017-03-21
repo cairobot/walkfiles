@@ -1,0 +1,35 @@
+@/
+version=0.0
+/@
+
+# auto-generated file header, adjust to your liking (can also be)
+# adjusted via the programs options
+[info]
+Id=101
+Version=0.1
+Name=slow
+Tick=100
+Use=prg
+Speed=1000
+Looping=true
+[end]
+
+# default setup instruction, change if the position of the legs
+# must be something else.
+[setup]
+>d90..12,:0
+[end]
+
+# the program, every step is just copied into the file
+[prg]
+        >d110,d90,d116,d94,d117,d126,d170,d117,d94,d86,d44,d92,:100
+        >d110,d90,d116,d94,d117,d126,d170,d77,d94,d86,d44,d132,:50
+        >d110,d90,d116,d94,d117,d126,d130,d77,d94,d86,d84,d132,:100
+        >d110,d90,d116,d94,d117,d126,d130,d117,d94,d86,d84,d92,:50
+        >d110,d90,d116,d94,d97,d126,d130,d117,d114,d86,d84,d92,:50
+        >d110,d90,d116,d94,d97,d86,d130,d117,d114,d126,d84,d92,:100
+        >d110,d90,d116,d94,d117,d86,d130,d117,d94,d126,d84,d92,:50
+        >d90,d90,d116,d114,d117,d86,d130,d117,d94,d126,d84,d92,:50
+        >d90,d50,d156,d114,d117,d86,d130,d117,d94,d126,d84,d92,:100
+        >d110,d50,d156,d94,d117,d86,d130,d117,d94,d126,d84,d92,:50
+[end]
